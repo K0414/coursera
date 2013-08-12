@@ -48,11 +48,10 @@ x = zeros(n, 1);
 %
 %
 
-
-
-
-
-
+for i=1:size(word_indices)
+%    if(1 <= word_indices(i) && word_indices(i) <= n)
+    x(word_indices(i)) = 1;
+end
 
 
 % =========================================================================
